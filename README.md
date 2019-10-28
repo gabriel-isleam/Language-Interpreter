@@ -11,6 +11,7 @@ These things are achieved with the help of several functions:
 - makeInstruction -> fetches the entire string received from the
 input file and then returns the array of instructions with the help 
 of a few functions such as:
+
 		* takeSequence - takes a line and transforms it into an array of
 	terms;
 		* takeWord - takes a word from the line (checks each character for 
