@@ -29,7 +29,7 @@ parameters type, the class it belongs to) must begin with the capital
 letter, except for the third term representing the name of the function
 
 
-- interpreter -> performs instructions filtering and then inserts them 
+- interpret -> performs instructions filtering and then inserts them 
 into the program; to validate a data entry in the program it uses several 
 auxiliary functions:
 
