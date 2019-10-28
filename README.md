@@ -1,7 +1,6 @@
 # Language-Interpretor
 An interpreter who makes the type synthesis for a simplistic language.
 
-Implementation of the interpreter
 
 The program takes the input data and parses them into an array of
 instructions, then take the instructions and insert them into the program.
