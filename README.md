@@ -33,10 +33,11 @@ letter, except for the third term representing the name of the function
 - interpreter -> performs instructions filtering and then inserts them 
 into the program; to validate a data entry in the program it uses several 
 auxiliary functions:
-		* classExist -> checks if a class exists in the program; in the
+
+	* classExist -> checks if a class exists in the program; in the
 	if it does not exist, the variable will be ignored or, if the parent
 	class of a class does not exist, it will inherit the Global class
-		* checkParam -> checks the validity of the type of parameters of a 
+	* checkParam -> checks the validity of the type of parameters of a 
 	function
-		* createFunctionString -> creates the string corresponding to a
+	* createFunctionString -> creates the string corresponding to a
 	function statements, which will be introduced in the program
