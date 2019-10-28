@@ -12,12 +12,12 @@ These things are achieved with the help of several functions:
 input file and then returns the array of instructions with the help 
 of a few functions such as:
 
-		* takeSequence - takes a line and transforms it into an array of
+	* takeSequence - takes a line and transforms it into an array of
 	terms;
-		* takeWord - takes a word from the line (checks each character for 
+	* takeWord - takes a word from the line (checks each character for 
 	a special character, which means the end of the word)
-		* checkEndLine - check if the end of the line has been reached
-		* removeFirstWord - remove the first word from the line, and also, 
+	* checkEndLine - check if the end of the line has been reached
+	* removeFirstWord - remove the first word from the line, and also, 
 	all special characters that remain until it finds the next word, this is
 	done with the help of "removeSpaces" function
 
